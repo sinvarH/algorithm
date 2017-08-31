@@ -1,0 +1,11 @@
+package JVM;
+
+/**
+ * Created by Administrator on 7/19/2017.
+ */
+public class Student extends Person {
+    @Override
+    public void say() {
+        System.out.println("I'm a student ");
+    }
+}

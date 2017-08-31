@@ -1,0 +1,13 @@
+package Oracle官方教程;
+
+/**
+ * Created by Administrator on 7/29/2017.
+ */
+public class GuardedBlock {
+    boolean joy ;
+    public void guardedJoy(){
+        while (!joy){
+            System.out.println("Joy has been achieved");
+        }
+    }
+}
